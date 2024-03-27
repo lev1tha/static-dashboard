@@ -24,7 +24,11 @@ const Transactions = () => {
                   {transactions.name} <span>{transactions.data}</span>{" "}
                 </p>
               </div>
-              <div className="grid-item-r"></div>
+              <div className="grid-item-r">
+                <span className="text-scarlet">
+                  ${transactions.amount}
+                </span>
+              </div>
             </div>
           ))}
         </div>
